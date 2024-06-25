@@ -2,7 +2,6 @@ function filterArray(numbers, value) {
     let result = [];
     for (const i of numbers) {
         if (i > value) {
-           result.slice(numbers.indexOf(value));
            result.push(i);
         }
     }
